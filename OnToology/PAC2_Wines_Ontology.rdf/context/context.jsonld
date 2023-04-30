@@ -1,0 +1,229 @@
+{
+  "@context" : {
+    "hasAcidityLevel" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAcidityLevel",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Mencia_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Mencia_red_grape"
+    },
+    "Priorat_Red_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Priorat_Red_wine"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "Moscatell_of_Alexandria_white_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Moscatell_of_Alexandria_white_grape"
+    },
+    "Pedro_Ximenez_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Pedro_Ximenez_grape"
+    },
+    "Montsant_Red_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Montsant_Red_wine"
+    },
+    "Toro_Red_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Toro_Red_wine"
+    },
+    "Parellada_white_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Parellada_white_grape"
+    },
+    "Grenache_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grenache_wine"
+    },
+    "Tempranillo_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Tempranillo_wine"
+    },
+    "Toro_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Toro_red_grape"
+    },
+    "White_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+    },
+    "Andalusia" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Andalusia"
+    },
+    "White_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_wine"
+    },
+    "Chenin_blanc_white_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Chenin_blanc_white_grape"
+    },
+    "Castile_and_Leon" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Castile_and_Leon"
+    },
+    "Balearic_Islands" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Balearic_Islands"
+    },
+    "Catalonia" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Catalonia"
+    },
+    "Rioja_Red_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Rioja_Red_wine"
+    },
+    "Monastrell_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Monastrell_wine"
+    },
+    "Malvasia_white_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Malvasia_white_grape"
+    },
+    "Syrah_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Syrah_red_grape"
+    },
+    "isMadeIn" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isMadeIn",
+      "@type" : "@id"
+    },
+    "Chardonnay_white_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Chardonnay_white_grape"
+    },
+    "Red_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+    },
+    "Cava_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Cava_wine"
+    },
+    "Carignan_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Carignan_red_grape"
+    },
+    "Aragon" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Aragon"
+    },
+    "isGrownIn" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isGrownIn",
+      "@type" : "@id"
+    },
+    "Graciano_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Graciano_red_grape"
+    },
+    "Navarre" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Navarre"
+    },
+    "Grenache_white_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grenache_white_grape"
+    },
+    "Grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grape"
+    },
+    "Malbec_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Malbec_red_grape"
+    },
+    "Mazuelo_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Mazuelo_red_grape"
+    },
+    "Sparkling_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sparkling_wine"
+    },
+    "Galicia" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Galicia"
+    },
+    "Ribera_del_Duero_Red_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Ribera_del_Duero_Red_wine"
+    },
+    "Viura_white_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Viura_white_grape"
+    },
+    "Tempranillo_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Tempranillo_red_grape"
+    },
+    "Sauvignon_white_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sauvignon_white_grape"
+    },
+    "Sherry_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sherry_wine"
+    },
+    "Canary_Islands" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Canary_Islands"
+    },
+    "Merlot_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Merlot_red_grape"
+    },
+    "hasAlcoholDegree" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAlcoholDegree",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "Sauvignon_Blanc_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sauvignon_Blanc_wine"
+    },
+    "Basque_Country" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Basque_Country"
+    },
+    "hasBodyLevel" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasBodyLevel",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Chardonnay_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Chardonnay_wine"
+    },
+    "Albarino_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Albarino_wine"
+    },
+    "La_Rioja" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#La_Rioja"
+    },
+    "Cabernet_Franc_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Cabernet_Franc_red_grape"
+    },
+    "Albarino_white_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Albarino_white_grape"
+    },
+    "isComposedOf" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isComposedOf",
+      "@type" : "@id"
+    },
+    "Rioja_White_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Rioja_White_wine"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Charelo_white_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Charelo_white_grape"
+    },
+    "Castile-La_Mancha" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Castile-La_Mancha"
+    },
+    "Spanish_region" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+    },
+    "Verdejo_white_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Verdejo_white_grape"
+    },
+    "Monastrell_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Monastrell_red_grape"
+    },
+    "Pedro_Ximenez_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Pedro_Ximenez_wine"
+    },
+    "Syrah_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Syrah_wine"
+    },
+    "Grenache_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grenache_red_grape"
+    },
+    "Valencia" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Valencia"
+    },
+    "Verdejo_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Verdejo_wine"
+    },
+    "Extremadura" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Extremadura"
+    },
+    "Mencia_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Mencia_wine"
+    },
+    "Red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+    },
+    "Cabernet_Sauvignon_wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Cabernet_Sauvignon_wine"
+    },
+    "Cabernet_Sauvignon_red_grape" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Cabernet_Sauvignon_red_grape"
+    },
+    "Wine" : {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine"
+    }
+  }
+}
