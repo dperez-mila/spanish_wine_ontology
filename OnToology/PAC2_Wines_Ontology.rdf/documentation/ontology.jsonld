@@ -1,0 +1,1161 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAcidityLevel"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAlcoholDegree"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid18"
+    }, {
+      "@id" : "_:genid16"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "100.0"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "0.0"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasBodyLevel"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "5"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid24"
+    }, {
+      "@id" : "_:genid22"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "http://www.w3.org/2001/XMLSchema#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "http://www.w3.org/2001/XMLSchema#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAcidityLevel"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAlcoholDegree"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasBodyLevel"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grape"
+    }, {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+    }, {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+    }, {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sherry_wine"
+    }, {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sparkling_wine"
+    }, {
+      "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_wine"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid43"
+    }, {
+      "@id" : "_:genid41"
+    }, {
+      "@id" : "_:genid39"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid45"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#g"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grape"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isGrownIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#g"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isComposedOf"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#g"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid52"
+    }, {
+      "@id" : "_:genid50"
+    }, {
+      "@id" : "_:genid48"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid54"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#g"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grape"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isComposedOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grape"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#g"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isComposedOf"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_wine"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#g"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid63"
+    }, {
+      "@id" : "_:genid61"
+    }, {
+      "@id" : "_:genid59"
+    }, {
+      "@id" : "_:genid57"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid65"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#g"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isGrownIn"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isMadeIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#g"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grape"
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine"
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isMadeIn"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAcidityLevel"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid12"
+    }, {
+      "@id" : "_:genid10"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "1. Title: Spanish Wine Checker Ontology"
+  }, {
+    "@value" : "2. Author: Daniel Pérez-Milá Sánchez"
+  }, {
+    "@value" : "3. Description: This ontology is about Spanish wines and their characteristics."
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Albarino_white_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of white grape used to make a particular white or sparkling wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Albarino_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Albariño wine (“alba-reen-yo”) is a delightfully refreshing coastal white that grows on the Iberian Peninsula. It’s loved for its rich stone fruit flavors, a hint of salinity, and zippy acidity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Andalusia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Andalusia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Aragon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Balearic_Islands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Basque_Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Cabernet_Franc_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Cabernet_Sauvignon_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Cabernet_Sauvignon_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The world’s most popular red wine grape is a natural cross between Cabernet Franc and Sauvignon Blanc from Bordeaux, France. Cabernet Sauvignon is loved for its high concentration and age worthiness."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Montsant_Red_wine"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Priorat_Red_wine"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Ribera_del_Duero_Red_wine"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Canary_Islands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#CandL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Castile_and_Leon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Carignan_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Castile-La_Mancha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Castile_and_Leon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Catalonia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Cava_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Cava is the premier sparkling of Spain. The wine uses a similar quality tier system to Champagne but champions several of Spain’s native grapes including Macabeu (Viura), Xarel-lo, and Parellada."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sparkling_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Chardonnay_white_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of white grape used to make a particular white or sparkling wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Chardonnay_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "One of the world’s most popular grapes, Chardonnay is made in a wide range of styles from lean, sparkling Blanc de Blancs to rich, creamy white wines aged in oak."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Charelo_white_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of white grape used to make a particular white or sparkling wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Chenin_blanc_white_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of white grape used to make a particular white or sparkling wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Extremadura",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Galicia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Graciano_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes are a non-climacteric type of fruit, generally occurring in clusters. They are known for the wine production."
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grenache_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grenache_white_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of white grape used to make a particular white or sparkling wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grenache_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Grenache (aka Garnacha) produces rich, flavorful red wines and deep, ruby-tinted rosé. The French have championed this grape in the Southern Rhône Valley but it’s original home is Spain."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Montsant_Red_wine"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Ribera_del_Duero_Red_wine"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Rioja_Red_wine"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Toro_Red_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#La_Rioja",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Malbec_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Malvasia_white_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of white grape used to make a particular white or sparkling wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Mazuelo_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Mencia_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Mencia_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A red variety from the Iberian peninsula (Spain and Portugal) that’s quickly developing a following. It’s loved for its heady aromatics and potential to age."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Merlot_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Monastrell_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Monastrell_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A deeply bold, smoky red wine found in abundance in Central Spain and Southern France (where it’s known as Mourvèdre). Monastrell is the “M” in the Rhône / GSM blend."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Montsant_Red_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Montsant is a Spanish Denominación de Origen Protegida (DOP) for wine located in the province of Tarragona and covers 12 municipalities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Moscatell_of_Alexandria_white_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of white grape used to make a particular white or sparkling wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Navarre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Parellada_white_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of white grape used to make a particular white or sparkling wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Pedro_Ximenez_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of white grape used to make a particular white or Sherry wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Pedro_Ximenez_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Andalucían grapes responsible for some of the world’s sweetest fortified wines are often dried in the sun to further concentrate the sugars."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sherry_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Priorat_Red_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Priorat is a Denominació d'Origen Qualificada (DOQ) for Catalan wines produced in the Priorat county, in the province of Tarragona, in the southwest of Catalonia."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Grapes are small dark purple fruit which grow in bunches."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grape"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wines made with red grapes (Pinot Noir, Cabernet Sauvignon, etc.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Ribera_del_Duero_Red_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ribera del Duero is a Spanish Denominación de Origen Protegida (DOP) located in the country's northern plateau and is one of eleven 'quality wine' regions within the autonomous community of Castile and León."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Rioja_Red_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Rioja is a wine region in Spain, with denominación de origen calificada. Rioja wine is made from grapes grown in the autonomous communities of La Rioja and Navarre, and the Basque province of Álava."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Rioja_White_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Rioja is a wine region in Spain, with denominación de origen calificada. Rioja wine is made from grapes grown in the autonomous communities of La Rioja and Navarre, and the Basque province of Álava."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sauvignon_Blanc_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A popular and unmistakable white wine that’s loved for its “green” herbal flavors and racy acidity. Sauvignon Blanc grows nearly everywhere and thus, offers a variety of styles ranging from lean to bountiful."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sauvignon_white_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of white grape used to make a particular white or sparkling wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sherry_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Sherry is a fortified wine made from white grapes that are grown near the city of Jerez de la Frontera in Andalusia, Spain. Sherry is produced in a variety of styles made primarily from the Palomino grape, ranging from light versions similar to white table wines, such as Manzanilla and fino, to darker and heavier versions that have been allowed to oxidise as they age in barrel, such as Amontillado and oloroso."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Spanish regions are called Autonomous Communities."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sparkling_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wines having bubbles created by natural fermentation. All champagnes are sparkling wines, but not all sparkling wines are champagnes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Syrah_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Syrah_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A rich, powerful, and sometimes meaty red wine that originated in the Rhône Valley of France. Syrah is the most planted grape of Australia, where they call it Shiraz."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Montsant_Red_wine"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Priorat_Red_wine"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Tempranillo_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Tempranillo_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Spain’s top red wine, made famous by Rioja, where wines are classified (in part) by how long they age in oak. What’s amazing, is a well-made Tempranillo ages for over 20 years."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Montsant_Red_wine"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Ribera_del_Duero_Red_wine"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Rioja_Red_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Test",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAcidityLevel" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAlcoholDegree" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "60.0"
+  } ],
+  "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isComposedOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#grape_test"
+  }, {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#grape_test_2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Toro_Red_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Toro is a Spanish Denominación de Origen Protegida (DOP) for wines in the province of Zamora, which is in the northwest of Castile and Léon (Spain). The area covered by the DOP is in the southeastern corner of Zamora province and includes the lands known as Tierra del Vino, Valle del Guareña and Tierra de Toro."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Toro_red_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of red grape used to make a particular red wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Valencia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is an Autonomous Community of Spain where grapes are grown for wine production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Verdejo_white_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of white grape used to make a particular white or sparkling wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Verdejo_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An herbaceous white wine that grows almost exclusively in the Rueda region of Spain. Not to be confused with Verdelho, a Portuguese grape used in primarily in Madeira."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Viura_white_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of white grape used to make a particular white or sparkling wine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Grapes are small green fruit which grow in bunches."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wines made with white grapes (Albariño, Chardonnay, etc.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Wine is an alcoholic drink typically made from fermented grapes. Yeast consumes the sugar in the grapes and converts it to ethanol and carbon dioxide, releasing heat in the process."
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid13"
+  }, {
+    "@id" : "_:genid19"
+  }, {
+    "@id" : "_:genid25"
+  }, {
+    "@id" : "_:genid26"
+  }, {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#grape_test",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isGrownIn" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Andalusia"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#grape_test_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isGrownIn" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#CandL"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAcidityLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of wine has a specific level of acidity when tasted within a range of 1 to 5."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAlcoholDegree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of wine has a specific alcohol degree within a range of 0% to 100%."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasBodyLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of wine has a specific level of body when tasted within a range of 1 to 5."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isComposedOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of wine is made from one or more grape varieties."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grape"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isGrownIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A grape variety is grown in one or more Spanish regions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isMadeIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A type of wine is produced in one or more Spanish regions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Main Superclass."
+  } ]
+}, {
+  "@id" : "urn:swrl:var#g",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#r",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#w",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]

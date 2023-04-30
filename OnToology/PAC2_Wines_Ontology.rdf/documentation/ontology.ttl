@@ -1,0 +1,708 @@
+@prefix : <http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#> .
+
+<http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5> rdf:type owl:Ontology ;
+                                                                                            rdfs:comment "1. Title: Spanish Wine Checker Ontology" ,
+                                                                                                         "2. Author: Daniel Pérez-Milá Sánchez" ,
+                                                                                                         "3. Description: This ontology is about Spanish wines and their characteristics." ;
+                                                                                            owl:versionInfo 1.0 .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isComposedOf
+:isComposedOf rdf:type owl:ObjectProperty ;
+              rdfs:domain :Wine ;
+              rdfs:range :Grape ;
+              rdfs:comment "A type of wine is made from one or more grape varieties." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isGrownIn
+:isGrownIn rdf:type owl:ObjectProperty ;
+           rdfs:domain :Grape ;
+           rdfs:range :Spanish_region ;
+           rdfs:comment "A grape variety is grown in one or more Spanish regions." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#isMadeIn
+:isMadeIn rdf:type owl:ObjectProperty ;
+          rdfs:domain :Wine ;
+          rdfs:range :Spanish_region ;
+          rdfs:comment "A type of wine is produced in one or more Spanish regions." .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAcidityLevel
+:hasAcidityLevel rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Wine ;
+                 rdfs:range xsd:int ;
+                 rdfs:comment "A type of wine has a specific level of acidity when tasted within a range of 1 to 5." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasAlcoholDegree
+:hasAlcoholDegree rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Wine ;
+                  rdfs:range xsd:float ;
+                  rdfs:comment "A type of wine has a specific alcohol degree within a range of 0% to 100%." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#hasBodyLevel
+:hasBodyLevel rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Wine ;
+              rdfs:range xsd:int ;
+              rdfs:comment "A type of wine has a specific level of body when tasted within a range of 1 to 5." .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Albarino_white_grape
+:Albarino_white_grape rdf:type owl:Class ;
+                      rdfs:subClassOf :White_grape ;
+                      rdfs:comment "A type of white grape used to make a particular white or sparkling wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Albarino_wine
+:Albarino_wine rdf:type owl:Class ;
+               rdfs:subClassOf :White_wine ;
+               rdfs:comment "Albariño wine (“alba-reen-yo”) is a delightfully refreshing coastal white that grows on the Iberian Peninsula. It’s loved for its rich stone fruit flavors, a hint of salinity, and zippy acidity." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Andalusia
+:Andalusia rdf:type owl:Class ;
+           rdfs:subClassOf :Spanish_region .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Aragon
+:Aragon rdf:type owl:Class ;
+        rdfs:subClassOf :Spanish_region ;
+        rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Balearic_Islands
+:Balearic_Islands rdf:type owl:Class ;
+                  rdfs:subClassOf :Spanish_region ;
+                  rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Basque_Country
+:Basque_Country rdf:type owl:Class ;
+                rdfs:subClassOf :Spanish_region ;
+                rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Cabernet_Franc_red_grape
+:Cabernet_Franc_red_grape rdf:type owl:Class ;
+                          rdfs:subClassOf :Red_grape ;
+                          rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Cabernet_Sauvignon_red_grape
+:Cabernet_Sauvignon_red_grape rdf:type owl:Class ;
+                              rdfs:subClassOf :Red_grape ;
+                              rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Cabernet_Sauvignon_wine
+:Cabernet_Sauvignon_wine rdf:type owl:Class ;
+                         owl:equivalentClass [ rdf:type owl:Restriction ;
+                                               owl:onProperty :hasAcidityLevel ;
+                                               owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                    owl:oneOf [ rdf:type rdf:List ;
+                                                                                rdf:first 5 ;
+                                                                                rdf:rest rdf:nil
+                                                                              ]
+                                                                  ]
+                                             ] ;
+                         rdfs:subClassOf :Montsant_Red_wine ,
+                                         :Priorat_Red_wine ,
+                                         :Red_wine ,
+                                         :Ribera_del_Duero_Red_wine ;
+                         rdfs:comment "The world’s most popular red wine grape is a natural cross between Cabernet Franc and Sauvignon Blanc from Bordeaux, France. Cabernet Sauvignon is loved for its high concentration and age worthiness." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Canary_Islands
+:Canary_Islands rdf:type owl:Class ;
+                rdfs:subClassOf :Spanish_region ;
+                rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Carignan_red_grape
+:Carignan_red_grape rdf:type owl:Class ;
+                    rdfs:subClassOf :Red_grape ;
+                    rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Castile-La_Mancha
+:Castile-La_Mancha rdf:type owl:Class ;
+                   rdfs:subClassOf :Spanish_region ;
+                   rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Castile_and_Leon
+:Castile_and_Leon rdf:type owl:Class ;
+                  rdfs:subClassOf :Spanish_region ;
+                  rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Catalonia
+:Catalonia rdf:type owl:Class ;
+           rdfs:subClassOf :Spanish_region ;
+           rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Cava_wine
+:Cava_wine rdf:type owl:Class ;
+           rdfs:subClassOf :Sparkling_wine ;
+           rdfs:comment "Cava is the premier sparkling of Spain. The wine uses a similar quality tier system to Champagne but champions several of Spain’s native grapes including Macabeu (Viura), Xarel-lo, and Parellada." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Chardonnay_white_grape
+:Chardonnay_white_grape rdf:type owl:Class ;
+                        rdfs:subClassOf :White_grape ;
+                        rdfs:comment "A type of white grape used to make a particular white or sparkling wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Chardonnay_wine
+:Chardonnay_wine rdf:type owl:Class ;
+                 rdfs:subClassOf :White_wine ;
+                 rdfs:comment "One of the world’s most popular grapes, Chardonnay is made in a wide range of styles from lean, sparkling Blanc de Blancs to rich, creamy white wines aged in oak." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Charelo_white_grape
+:Charelo_white_grape rdf:type owl:Class ;
+                     rdfs:subClassOf :White_grape ;
+                     rdfs:comment "A type of white grape used to make a particular white or sparkling wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Chenin_blanc_white_grape
+:Chenin_blanc_white_grape rdf:type owl:Class ;
+                          rdfs:subClassOf :White_grape ;
+                          rdfs:comment "A type of white grape used to make a particular white or sparkling wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Extremadura
+:Extremadura rdf:type owl:Class ;
+             rdfs:subClassOf :Spanish_region ;
+             rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Galicia
+:Galicia rdf:type owl:Class ;
+         rdfs:subClassOf :Spanish_region ;
+         rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Graciano_red_grape
+:Graciano_red_grape rdf:type owl:Class ;
+                    rdfs:subClassOf :Red_grape ;
+                    rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grape
+:Grape rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :isGrownIn ;
+                             owl:someValuesFrom :Spanish_region
+                           ] ;
+       rdfs:comment "A grape is a fruit, botanically a berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes are a non-climacteric type of fruit, generally occurring in clusters. They are known for the wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grenache_red_grape
+:Grenache_red_grape rdf:type owl:Class ;
+                    rdfs:subClassOf :Red_grape ;
+                    rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grenache_white_grape
+:Grenache_white_grape rdf:type owl:Class ;
+                      rdfs:subClassOf :White_grape ;
+                      rdfs:comment "A type of white grape used to make a particular white or sparkling wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Grenache_wine
+:Grenache_wine rdf:type owl:Class ;
+               rdfs:subClassOf :Montsant_Red_wine ,
+                               :Red_wine ,
+                               :Ribera_del_Duero_Red_wine ,
+                               :Rioja_Red_wine ,
+                               :Toro_Red_wine ;
+               rdfs:comment "Grenache (aka Garnacha) produces rich, flavorful red wines and deep, ruby-tinted rosé. The French have championed this grape in the Southern Rhône Valley but it’s original home is Spain." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#La_Rioja
+:La_Rioja rdf:type owl:Class ;
+          rdfs:subClassOf :Spanish_region ;
+          rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Malbec_red_grape
+:Malbec_red_grape rdf:type owl:Class ;
+                  rdfs:subClassOf :Red_grape ;
+                  rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Malvasia_white_grape
+:Malvasia_white_grape rdf:type owl:Class ;
+                      rdfs:subClassOf :White_grape ;
+                      rdfs:comment "A type of white grape used to make a particular white or sparkling wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Mazuelo_red_grape
+:Mazuelo_red_grape rdf:type owl:Class ;
+                   rdfs:subClassOf :Red_grape ;
+                   rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Mencia_red_grape
+:Mencia_red_grape rdf:type owl:Class ;
+                  rdfs:subClassOf :Red_grape ;
+                  rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Mencia_wine
+:Mencia_wine rdf:type owl:Class ;
+             rdfs:subClassOf :Red_wine ;
+             rdfs:comment "A red variety from the Iberian peninsula (Spain and Portugal) that’s quickly developing a following. It’s loved for its heady aromatics and potential to age." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Merlot_red_grape
+:Merlot_red_grape rdf:type owl:Class ;
+                  rdfs:subClassOf :Red_grape ;
+                  rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Monastrell_red_grape
+:Monastrell_red_grape rdf:type owl:Class ;
+                      rdfs:subClassOf :Red_grape ;
+                      rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Monastrell_wine
+:Monastrell_wine rdf:type owl:Class ;
+                 rdfs:subClassOf :Red_wine ;
+                 rdfs:comment "A deeply bold, smoky red wine found in abundance in Central Spain and Southern France (where it’s known as Mourvèdre). Monastrell is the “M” in the Rhône / GSM blend." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Montsant_Red_wine
+:Montsant_Red_wine rdf:type owl:Class ;
+                   rdfs:subClassOf :Red_wine ;
+                   rdfs:comment "Montsant is a Spanish Denominación de Origen Protegida (DOP) for wine located in the province of Tarragona and covers 12 municipalities." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Moscatell_of_Alexandria_white_grape
+:Moscatell_of_Alexandria_white_grape rdf:type owl:Class ;
+                                     rdfs:subClassOf :White_grape ;
+                                     rdfs:comment "A type of white grape used to make a particular white or sparkling wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Navarre
+:Navarre rdf:type owl:Class ;
+         rdfs:subClassOf :Spanish_region ;
+         rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Parellada_white_grape
+:Parellada_white_grape rdf:type owl:Class ;
+                       rdfs:subClassOf :White_grape ;
+                       rdfs:comment "A type of white grape used to make a particular white or sparkling wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Pedro_Ximenez_grape
+:Pedro_Ximenez_grape rdf:type owl:Class ;
+                     rdfs:subClassOf :White_grape ;
+                     rdfs:comment "A type of white grape used to make a particular white or Sherry wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Pedro_Ximenez_wine
+:Pedro_Ximenez_wine rdf:type owl:Class ;
+                    rdfs:subClassOf :Sherry_wine ;
+                    rdfs:comment "The Andalucían grapes responsible for some of the world’s sweetest fortified wines are often dried in the sun to further concentrate the sugars." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Priorat_Red_wine
+:Priorat_Red_wine rdf:type owl:Class ;
+                  rdfs:subClassOf :Red_wine ;
+                  rdfs:comment "Priorat is a Denominació d'Origen Qualificada (DOQ) for Catalan wines produced in the Priorat county, in the province of Tarragona, in the southwest of Catalonia." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_grape
+:Red_grape rdf:type owl:Class ;
+           rdfs:subClassOf :Grape ;
+           owl:disjointWith :White_grape ;
+           rdfs:comment "Grapes are small dark purple fruit which grow in bunches." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Red_wine
+:Red_wine rdf:type owl:Class ;
+          rdfs:subClassOf :Wine ;
+          rdfs:comment "Wines made with red grapes (Pinot Noir, Cabernet Sauvignon, etc.)." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Ribera_del_Duero_Red_wine
+:Ribera_del_Duero_Red_wine rdf:type owl:Class ;
+                           rdfs:subClassOf :Red_wine ;
+                           rdfs:comment "Ribera del Duero is a Spanish Denominación de Origen Protegida (DOP) located in the country's northern plateau and is one of eleven 'quality wine' regions within the autonomous community of Castile and León." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Rioja_Red_wine
+:Rioja_Red_wine rdf:type owl:Class ;
+                rdfs:subClassOf :Red_wine ;
+                rdfs:comment "Rioja is a wine region in Spain, with denominación de origen calificada. Rioja wine is made from grapes grown in the autonomous communities of La Rioja and Navarre, and the Basque province of Álava." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Rioja_White_wine
+:Rioja_White_wine rdf:type owl:Class ;
+                  rdfs:subClassOf :White_wine ;
+                  rdfs:comment "Rioja is a wine region in Spain, with denominación de origen calificada. Rioja wine is made from grapes grown in the autonomous communities of La Rioja and Navarre, and the Basque province of Álava." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sauvignon_Blanc_wine
+:Sauvignon_Blanc_wine rdf:type owl:Class ;
+                      rdfs:subClassOf :White_wine ;
+                      rdfs:comment "A popular and unmistakable white wine that’s loved for its “green” herbal flavors and racy acidity. Sauvignon Blanc grows nearly everywhere and thus, offers a variety of styles ranging from lean to bountiful." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sauvignon_white_grape
+:Sauvignon_white_grape rdf:type owl:Class ;
+                       rdfs:subClassOf :White_grape ;
+                       rdfs:comment "A type of white grape used to make a particular white or sparkling wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sherry_wine
+:Sherry_wine rdf:type owl:Class ;
+             rdfs:subClassOf :Wine ;
+             rdfs:comment "Sherry is a fortified wine made from white grapes that are grown near the city of Jerez de la Frontera in Andalusia, Spain. Sherry is produced in a variety of styles made primarily from the Palomino grape, ranging from light versions similar to white table wines, such as Manzanilla and fino, to darker and heavier versions that have been allowed to oxidise as they age in barrel, such as Amontillado and oloroso." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Spanish_region
+:Spanish_region rdf:type owl:Class ;
+                rdfs:comment "Spanish regions are called Autonomous Communities." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Sparkling_wine
+:Sparkling_wine rdf:type owl:Class ;
+                rdfs:subClassOf :Wine ;
+                rdfs:comment "Wines having bubbles created by natural fermentation. All champagnes are sparkling wines, but not all sparkling wines are champagnes." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Syrah_red_grape
+:Syrah_red_grape rdf:type owl:Class ;
+                 rdfs:subClassOf :Red_grape ;
+                 rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Syrah_wine
+:Syrah_wine rdf:type owl:Class ;
+            rdfs:subClassOf :Montsant_Red_wine ,
+                            :Priorat_Red_wine ,
+                            :Red_wine ;
+            rdfs:comment "A rich, powerful, and sometimes meaty red wine that originated in the Rhône Valley of France. Syrah is the most planted grape of Australia, where they call it Shiraz." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Tempranillo_red_grape
+:Tempranillo_red_grape rdf:type owl:Class ;
+                       rdfs:subClassOf :Red_grape ;
+                       rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Tempranillo_wine
+:Tempranillo_wine rdf:type owl:Class ;
+                  rdfs:subClassOf :Montsant_Red_wine ,
+                                  :Red_wine ,
+                                  :Ribera_del_Duero_Red_wine ,
+                                  :Rioja_Red_wine ;
+                  rdfs:comment "Spain’s top red wine, made famous by Rioja, where wines are classified (in part) by how long they age in oak. What’s amazing, is a well-made Tempranillo ages for over 20 years." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Toro_Red_wine
+:Toro_Red_wine rdf:type owl:Class ;
+               rdfs:subClassOf :Red_wine ;
+               rdfs:comment "Toro is a Spanish Denominación de Origen Protegida (DOP) for wines in the province of Zamora, which is in the northwest of Castile and Léon (Spain). The area covered by the DOP is in the southeastern corner of Zamora province and includes the lands known as Tierra del Vino, Valle del Guareña and Tierra de Toro." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Toro_red_grape
+:Toro_red_grape rdf:type owl:Class ;
+                rdfs:subClassOf :Red_grape ;
+                rdfs:comment "A type of red grape used to make a particular red wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Valencia
+:Valencia rdf:type owl:Class ;
+          rdfs:subClassOf :Spanish_region ;
+          rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Verdejo_white_grape
+:Verdejo_white_grape rdf:type owl:Class ;
+                     rdfs:subClassOf :White_grape ;
+                     rdfs:comment "A type of white grape used to make a particular white or sparkling wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Verdejo_wine
+:Verdejo_wine rdf:type owl:Class ;
+              rdfs:subClassOf :White_wine ;
+              rdfs:comment "An herbaceous white wine that grows almost exclusively in the Rueda region of Spain. Not to be confused with Verdelho, a Portuguese grape used in primarily in Madeira." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Viura_white_grape
+:Viura_white_grape rdf:type owl:Class ;
+                   rdfs:subClassOf :White_grape ;
+                   rdfs:comment "A type of white grape used to make a particular white or sparkling wine." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_grape
+:White_grape rdf:type owl:Class ;
+             rdfs:subClassOf :Grape ;
+             rdfs:comment "Grapes are small green fruit which grow in bunches." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#White_wine
+:White_wine rdf:type owl:Class ;
+            rdfs:subClassOf :Wine ;
+            rdfs:comment "Wines made with white grapes (Albariño, Chardonnay, etc.)." .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Wine
+:Wine rdf:type owl:Class ;
+      owl:equivalentClass [ rdf:type owl:Restriction ;
+                            owl:onProperty :isComposedOf ;
+                            owl:someValuesFrom :Grape
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :isMadeIn ;
+                            owl:someValuesFrom :Spanish_region
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasAcidityLevel ;
+                            owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                 owl:onDatatype xsd:int ;
+                                                 owl:withRestrictions ( [ xsd:minInclusive "1"^^xsd:int
+                                                                        ]
+                                                                        [ xsd:maxInclusive "5"^^xsd:int
+                                                                        ]
+                                                                      )
+                                               ]
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasAlcoholDegree ;
+                            owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                 owl:onDatatype xsd:float ;
+                                                 owl:withRestrictions ( [ xsd:minInclusive "0.0"^^xsd:float
+                                                                        ]
+                                                                        [ xsd:maxInclusive "100.0"^^xsd:float
+                                                                        ]
+                                                                      )
+                                               ]
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasBodyLevel ;
+                            owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                 owl:onDatatype xsd:int ;
+                                                 owl:withRestrictions ( [ xsd:minInclusive "1"^^xsd:int
+                                                                        ]
+                                                                        [ xsd:maxInclusive "5"^^xsd:int
+                                                                        ]
+                                                                      )
+                                               ]
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasAcidityLevel ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:int
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasAlcoholDegree ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:float
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasBodyLevel ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:int
+                          ] ;
+      rdfs:comment "Wine is an alcoholic drink typically made from fermented grapes. Yeast consumes the sugar in the grapes and converts it to ethanol and carbon dioxide, releasing heat in the process." .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Andalusia
+:Andalusia rdf:type owl:NamedIndividual ,
+                    :Andalusia .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#CandL
+:CandL rdf:type owl:NamedIndividual ,
+                :Castile_and_Leon .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#Test
+:Test rdf:type owl:NamedIndividual ;
+      :isComposedOf :grape_test ,
+                    :grape_test_2 ;
+      :hasAcidityLevel "5"^^xsd:int ;
+      :hasAlcoholDegree "60.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#grape_test
+:grape_test rdf:type owl:NamedIndividual ;
+            :isGrownIn :Andalusia .
+
+
+###  http://www.semanticweb.org/danielperez-milasanchez/ontologies/2023/3/untitled-ontology-5#grape_test_2
+:grape_test_2 rdf:type owl:NamedIndividual ,
+                       :Red_grape ;
+              :isGrownIn :CandL .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:Andalusia rdfs:comment "It is an Autonomous Community of Spain where grapes are grown for wine production." .
+
+
+owl:Thing rdfs:comment "Main Superclass." .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Grape
+                :Spanish_region
+                :Wine
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Red_wine
+                :Sherry_wine
+                :Sparkling_wine
+                :White_wine
+              )
+] .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<urn:swrl:var#w> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#g> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#r> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Red_wine ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :isComposedOf ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#g>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> :Grape ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#g>
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Red_grape ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#g>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :White_wine ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :isComposedOf ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#g>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> :Grape ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#g>
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :White_grape ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#g>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Wine ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> :Grape ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#g>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :isGrownIn ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#g> ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r>
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#classPredicate> :Spanish_region ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>
+                                                                                      ] ;
+                                                                            rdf:rest rdf:nil
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :isMadeIn ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w> ;
+                                                       <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
